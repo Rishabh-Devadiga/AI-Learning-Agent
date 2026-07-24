@@ -3,6 +3,7 @@ import {
   ClipboardCheck,
   LayoutDashboard,
   MessageCircle,
+  MessagesSquare,
   TrendingUp,
 } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -14,6 +15,7 @@ const sidebarItems = [
   { label: "Dashboard", to: "/dashboard", icon: LayoutDashboard },
   { label: "Learning Plan", to: "/learning-plan", icon: BookOpen },
   { label: "Quiz", to: "/quiz", icon: ClipboardCheck },
+  { label: "AI Mentor", to: "/mentor", icon: MessagesSquare },
   { label: "Progress", to: "/progress", icon: TrendingUp },
   {
     label: "Feedback and Nudges",
