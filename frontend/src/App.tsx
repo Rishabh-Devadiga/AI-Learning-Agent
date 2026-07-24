@@ -1,6 +1,7 @@
 import { Navigate, Route, Routes } from "react-router-dom";
 
 import { AppLayout } from "@/layouts/AppLayout";
+import { AIMentorPage } from "@/pages/AIMentorPage";
 import { ApiTestPage } from "@/pages/ApiTestPage";
 import { ChatPage } from "@/pages/ChatPage";
 import { DashboardPage } from "@/pages/DashboardPage";
@@ -22,6 +23,7 @@ export default function App() {
         <Route path="learning-plan" element={<LearningPlanPage />} />
         <Route path="progress" element={<ProgressPage />} />
         <Route path="quiz" element={<QuizPage />} />
+        <Route path="mentor" element={<AIMentorPage />} />
         <Route path="feedback" element={<FeedbackNudgesPage />} />
         <Route path="api-test" element={<ApiTestPage />} />
         <Route path="*" element={<Navigate to="/" replace />} />
